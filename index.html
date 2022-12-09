@@ -66,45 +66,45 @@
                 <img class="img-fluid" src="images/1 (1).png" alt="">
                 <img class="img-fluid mt-5" src="images/2 hover.png" alt="">
                 <img class="img-fluid mt-5" src="images/4 (1).png" alt="">
-                <div class="text-center"><a class="home__link btn py-2 px-5 d-inline-block my-5 text-uppercase text-white" href="#">посмотреть Демо движка <img src="images/layer1.png" alt=""></a> </div>
+                <div class="text-center"><a class="home__link btn py-2 px-5 d-inline-block my-5 text-uppercase text-white" href="#">Смотреть еще <img src="images/layer1.png" alt=""></a> </div>
                 
             </div>
         </section>
 
         <section class="about py-5">
             <div class="container">
-                <div class="row text-white g-5">
+                <div class="row text-white g-5 about__row">
                     <div class="col-12 col-md-4 py-auto">
                         <h1 class="text-uppercase text-white mt-5">Этапы <span class="blue-text">|</span> </h1>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="about-card">
-                            <p>№1</p>
+                    <div class="col-12 col-md-4 py-2 px-0 border border-danger">
+                        <div class="about-card px-5 pt-4 pb-5 border-bottom border-top border-danger">
+                            <p>№2</p>
                             <p>Составление тех. задания на проект</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="about-card">
+                    <div class="col-12 col-md-4 py-2 px-0 border border-danger">
+                        <div class="about-card px-5 pt-4 pb-5 border-bottom border-top border-danger">
                             <p>№2</p>
                             <p>Составление тех. задания на проект</p>
                         </div>
                     </div>
                 </div>
-                <div class="row text-white g-5 mt-5">
-                    <div class="col-md-4 col-12">
-                        <div class="about-card">
+                <div class="row text-white g-5 mt-5 about__row">
+                    <div class="col-md-4 col-12 py-2 px-0 border border-danger">
+                        <div class="about-card px-5 pt-4 pb-5 border-bottom border-top border-danger">
                             <p>№1</p>
                             <p>Составление тех. задания на проект</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-12">
-                        <div class="about-card">
+                    <div class="col-md-4 col-12 py-2 px-0 border border-danger">
+                        <div class="about-card px-5 pt-4 pb-5 border-bottom border-top border-danger">
                             <p>№1</p>
                             <p>Составление тех. задания на проект</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-12">
-                        <div class="about-card">
+                    <div class="col-md-4 col-12 py-2 px-0 border border-danger">
+                        <div class="about-card px-5 pt-4 pb-5 border-bottom border-top border-danger">
                             <p>№2</p>
                             <p>Составление тех. задания на проект</p>
                         </div>
@@ -170,11 +170,11 @@
             </div>
         </section>
 
-        <section class="project mt-5" style="background: #5A20FF;">
+        <section class="project my-5 py-5" style="background: #5A20FF;">
             <div class="container">
                 <h1 class="text-center text-uppercase text-white">начать проект <span class="blue-text">|</span></h1>
                 <p class="text-white text-center">Заполните форму и наши специалисты свяжутся с вами в ближайшее время</p>
-                <form class="row g-5 needs-validation" novalidate>
+                <form class="row g-5 needs-validation project__form bg-white my-5 py-5" novalidate>
                     <div class="col-md-6 position-relative">
                         <input type="text" class="form-control" id="validationTooltip01" placeholder="Имя *" required>
                         <div class="valid-tooltip">
@@ -203,34 +203,69 @@
                       </div>
                     </div>
                     <div class="col-md-3 position-relative">
-                      <label for="validationTooltip04" class="form-label">State</label>
-                      <select class="form-select" id="validationTooltip04" required>
-                        <option selected disabled value="">Choose...</option>
-                        <option>...</option>
-                      </select>
-                      <div class="invalid-tooltip">
-                        Please select a valid state.
-                      </div>
-                    </div>
-                    <div class="col-md-3 position-relative">
-                      <label for="validationTooltip05" class="form-label">Zip</label>
-                      <input type="text" class="form-control" id="validationTooltip05" required>
-                      <div class="invalid-tooltip">
-                        Please provide a valid zip.
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button class="btn btn-primary" type="submit">Submit form</button>
+                        <select class="form-select" id="validationTooltip04" required>
+                            <option selected disabled value="">Choose language</option>
+                            <option>RU</option>
+                            <option>UZB</option>
+                            <option>ENG</option>
+                        </select>
+                        <div class="invalid-tooltip">
+                            Please select a valid state.
+                        </div>
                     </div>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                        <label for="floatingTextarea2">Comments</label>
+                        <textarea class="form-control" placeholder="Описание" id="floatingTextarea2" style="height: 100px">Описание</textarea>
+                    </div>
+                    <div class="col-sm-10 ">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                          Example checkbox
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button class="btn home__link form__link py-2 px-5 d-inline-block my-5 text-uppercase" type="submit">Submit form <img src="images/rect4454.png" alt=""></button>
                     </div>
                 </form>
             </div>
         </section>
 
     </main>
+
+
+    <footer class="py-5">
+        <div class="footer-bg">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-3">
+                        <h1 class="text-uppercase text-white">Напишите нам <span class="blue-text">|</span></h1>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                        <div class="footer__card d-flex justify-content-center align-items-center">
+                            <a href="#">
+                                <i class="bi bi-instagram text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                        <div class="footer__card d-flex justify-content-center align-items-center">
+                            <a href="#">
+                                <i class="bi bi-telegram text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                        <div class="footer__card d-flex justify-content-center align-items-center">
+                            <a href="#">
+                                <i class="bi bi-github text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

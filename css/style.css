@@ -105,10 +105,11 @@ header {
     padding-top: 600px;
 }
 
-.about-card {
-    padding: 20px 20px 80px 20px;
-    border: 1px solid red;
-}
+.about__row {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+} 
 
 
 .tarif {
@@ -126,6 +127,30 @@ header {
 
 .project__form {
     position: relative;
+    z-index: 100;
+}
+
+.form__link, .form__link:hover {
+    color: #5A20FF;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+footer {
+    background-color: #000430;
+}
+
+.footer-bg {
+    background: url(../images/Group\ 555.png);
+}
+
+.footer__card {
+    width: 60px;
+    height: 60px;
+    background-color: red;
 }
 
 @media only screen and (max-width: 890px) {

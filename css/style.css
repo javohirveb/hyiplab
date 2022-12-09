@@ -1,0 +1,177 @@
+
+
+.shape-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(0.97);
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+header {
+    background: url(../images/2883401\ 2\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+    position: relative;
+}
+
+.blue-text {
+    color: #20DDF5;
+}
+
+.nav__social-networks {
+    list-style: none;
+}
+
+.nav__telegram,
+.nav__instagram,
+.nav__github {
+    transform: scale(1.5);
+}
+
+.home__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.135em;
+}
+
+.home__link {
+    border: 3px solid #20DDF5;
+    filter: drop-shadow(-5px -5px 10px rgba(19, 255, 226, 0.4));
+}
+
+.home__link img {
+    transition: all .4s ease-in-out;
+}
+
+.home__link:hover img {
+    margin-left: 10px;
+}
+
+.img-2 {
+    width: 1300px;
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+}
+
+.res-2 {
+    display: none;
+}
+
+.hero {
+    padding: 200px 0 700px 0;
+    position: relative;
+}
+
+.hero__1 {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+}
+
+.hero__2 {
+    position: absolute;
+    right: 382px;
+    top: 450px;
+}
+
+.hero__3 {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.hero__4 {
+    position: absolute;
+    top: 840px;
+    left: 640px;
+}
+
+.portfolio {
+    background: url(../images/bg\ \(4\).png);
+    background-repeat: no-repeat;
+}
+
+.portfolio__title {
+    padding-top: 600px;
+}
+
+.about-card {
+    padding: 20px 20px 80px 20px;
+    border: 1px solid red;
+}
+
+
+.tarif {
+    background: url(../images/bg\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    padding-top: 90px;
+    padding-bottom: 390px;
+}
+
+
+.res-tarif {
+    display: none;
+}
+
+.guarantees .row {
+
+}
+
+@media only screen and (max-width: 890px) {
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    .home__title {
+        font-size: 35px;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .res-2 {
+        display: inline-block;
+    }
+
+    .res-tarif {
+        display: inline-block;
+        width: 100%;
+    }
+    .res-tarif1 {
+        display: none;
+    }
+
+    .hero {
+        padding-bottom: 20px;
+    }
+
+    .hero__3, .hero__2, .hero__4 {
+        display: none;
+    }
+    .hero__1 {
+        position: static;
+        width: 100%;
+    }
+
+    .tarif {
+        background-size: cover;
+        padding-bottom: 30px;
+    }
+    .guarantees .row {
+        gap: 0;
+    }
+    
+}

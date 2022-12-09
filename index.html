@@ -124,10 +124,10 @@
             </div>
         </section>
 
-        <section class="guarantees">
+        <section class="guarantees my-5 py-5">
             <div class="container">
                 <h1 class="text-center text-uppercase text-white">гарантии</h1>
-                <div class="row g-5">
+                <div class="row g-5 mx-2">
                     <div class="col-md-6 col-12 bg-white">
                         <img src="images/fingerprint 1.png" alt="" width="80">
                         <p>Вся работа прозрачна и отслеживается через онлайн сервисы, которые мы интегрировали в нашу экосистему. </p>
@@ -140,10 +140,10 @@
             </div>
         </section>
 
-        <section class="question mt-5">
+        <section class="question my-5 py-5">
             <div class="container">
                 <h1 class="question__title text-center text-uppercase text-white">популярные вопросы</h1>
-                <div class="row mt-5">
+                <div class="row mt-5 mx-2">
                     <div class="col-12 py-4 border border-danger">
                         <div class="row p-3 border-bottom border-top border-danger">
                             <div class="col-1" style="color: #20DDF5; text-shadow: -5px -5px 10px rgba(19, 255, 226, 0.4);">
@@ -167,6 +167,66 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="project mt-5" style="background: #5A20FF;">
+            <div class="container">
+                <h1 class="text-center text-uppercase text-white">начать проект <span class="blue-text">|</span></h1>
+                <p class="text-white text-center">Заполните форму и наши специалисты свяжутся с вами в ближайшее время</p>
+                <form class="row g-5 needs-validation" novalidate>
+                    <div class="col-md-6 position-relative">
+                        <input type="text" class="form-control" id="validationTooltip01" placeholder="Имя *" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6 position-relative">
+                        <input type="text" class="form-control" id="validationTooltip02" placeholder="Компания *" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6 position-relative">
+                      <div class="input-group has-validation">
+                        <input type="text" class="form-control" placeholder="example" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                        <span class="input-group-text" id="validationTooltipUsernamePrepend">@gmail.com</span>
+                        <div class="invalid-tooltip">
+                          Please choose a unique and valid username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 position-relative">
+                      <input type="tel" class="form-control" id="validationTooltip03" placeholder="Телефон " required>
+                      <div class="invalid-tooltip">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3 position-relative">
+                      <label for="validationTooltip04" class="form-label">State</label>
+                      <select class="form-select" id="validationTooltip04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                      <div class="invalid-tooltip">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3 position-relative">
+                      <label for="validationTooltip05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationTooltip05" required>
+                      <div class="invalid-tooltip">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                    </div>
+                </form>
             </div>
         </section>
 

@@ -124,8 +124,8 @@ header {
     display: none;
 }
 
-.guarantees .row {
-
+.project__form {
+    position: relative;
 }
 
 @media only screen and (max-width: 890px) {
